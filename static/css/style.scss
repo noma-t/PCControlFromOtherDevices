@@ -1,0 +1,21 @@
+body {
+  padding: 10px 20px;
+
+  div {
+    details.category {
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+      summary {
+        margin-bottom: 5px;
+      }
+
+      ul {
+        display: flex;
+        li {
+          list-style-type: none;
+        }
+      }
+    }
+  }
+}
